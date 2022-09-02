@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kidus's</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+<body><i class="fa fa-bars" aria-hidden="true"></i>
+    <section class="sub-header">
+        <nav>
+            <a  href="index.html"><img class= "my_logo" src="images/looo.png"></a>
+            <div class="nav-links" id="navLinks">
+                
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">More</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Ethiopia</h1>
+    </section>
+
+  <!----- about us content ----->  
+
+  <section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We will be 1st in the world!</h1>
+            <p>Ethiopia as a country had its origin in about 980 B.C., which makes it one of the oldest nations in the world.
+                
+                Due to this very long history and an unmatched diversity of people and cultures, the country has often been described as a “museum of peoples”. With such a highly diverse population, Ethiopia houses an intricate tapestry of language and ethnic groups.
+                Also nicknamed the “Land of 13 Sunshine’s”, Ethiopia is often described as one of the most enthralling and enchanting places in the world – and definitely in Africa.
+                <br>
+                <br>
+                Ethiopia may not be the first place any traveller think of when planning or booking a next holiday, but it may just as well soon be the case. As African country Ethiopia can boast about having been at peace for at least the previous 15 years or more years and its economy is consequently one of the fastest growing in the world.
+                
+                With the added bonus of an astounding diversity of landscapes, mixture of cultures and history that tracks back to when homo sapiens first started to raise itself up onto two legs, a traveller suddenly may look forward to a surprising and breath-taking travel destination.
+                
+                But talking about planning and holiday dated, you probably didn’t know that this unique nation even has its own calendar?
+                
+                </p>
+            <a href="" class="hero-btn red-btn">Explore NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/ethiopian-food-featured.webp">
+    </div>
+
+  </section>
+
+<!----- footer ----->
+
+<section class="footer">
+    <h4>Special About Ethiopia</h4>
+    <p>Ethiopia is known as the Cradle of Mankind, with some of the earliest ancestors found buried in the soil.<br> Lucy (3.5 million years old), the most famous fossils found, were unearthed in Hadar. <br>Ethiopia remains one of the only nations in Africa never to be colonized</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twiter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkdin" ></i>
+        <i class="fa fa-telegram" ></i>
+    </div>
+    <p>Made by Bubu</p>
+</section>
+
+
+
+
+
+
+    <!------Javascript for Toggle Menu------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
